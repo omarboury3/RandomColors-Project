@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Color | Second Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+            <div class="rgb-selector">
+                <p class="rgb-text">Rojo (R)</p>
+                <input onclick="RangeNumber()" class="input-rgb" type="range" min="0" max="255">
+                <p class="color-number"></p>
+            </div>
+            <div class="rgb-selector">
+                <p class="rgb-text">Verde (G)</p>
+                <input onclick="RangeNumber()" class="input-rgb" type="range" min="0" max="255">
+                <p class="color-number"></p>
+            </div>
+            <div class="rgb-selector">
+                <p id="rgb-text-blue">Azul (B)</p>
+                <input onclick="RangeNumber()" class="input-rgb" type="range" min="0" max="255">
+                <p class="color-number"></p>
+            </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
